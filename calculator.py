@@ -1,6 +1,8 @@
 """
 A simple command line calculator that performs addition and multiplication
 """
+
+
 def get_numbers():
     """
     Get numbers from user input
@@ -12,7 +14,7 @@ def get_numbers():
         user_input = input("Enter a number: ").strip()
         if user_input.lower() == 'done':
             break
-        try: 
+        try:
             number = float(user_input)
             numbers.append(number)
         except ValueError:
