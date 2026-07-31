@@ -33,7 +33,7 @@ def main():
     numbers = get_numbers()
     if len(numbers) == 0:
         print("No numbers entered. Existing")
-        return 
+        return
     print(f"\n You have entered: {numbers}")
     print("\n What operation would you like to perform")
     print("1. Addition")
@@ -49,6 +49,7 @@ def main():
         print("Feature comming soon.")
     else:
         print("Invalid choice")
+
 
 if __name__ == "__main__":
     main()
